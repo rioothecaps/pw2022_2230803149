@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laboratorium Terpadu</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="uin.jpeg" alt="Laboratorium" class="full-width-image">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="tentang.html">TENTANG</a></li>
+            <li><a href="galeri.html">GALERI</a></li>
+            <li><a href="bukutamu.html">BUKU TAMU</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Buku Tamu</h2>
+        <div class="left-align-form">
+            <form name="myform">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td> : </td>
+                        <td><input type="text" name="Nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td> : </td>
+                        <td><input type="text" name="Alamat"></td>
+                    </tr>
+                    <tr>
+                        <td>No.Telp</td>
+                        <td> : </td>
+                        <td><input type="text" name="NoTelp"></td>
+                    </tr>
+                    <tr>
+                        <td>Pilihan Sebagai</td>
+                        <td> : </td>
+                        <td>
+                            <select name="state">
+                                <option value="siswa">Siswa</option>
+                                <option value="guru">Guru</option>
+                                <option value="umum" selected>Umum</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td> : </td>
+                        <td>
+                            <input type="radio" name="jenis_kelamin" value="L"> Laki Laki
+                            <input type="radio" name="jenis_kelamin" value="P"> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Komentar</td>
+                        <td> : </td>
+                        <td><textarea name="komentar" rows="5" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><br><input type="submit" name="submit" value="Simpan" style="width:80px;"></td>
+                        <td><br></td>
+                        <td><br><input type="reset" name="reset" value="Ulangi" style="width:80px;"></td>
+                        <td><br><input type="reset" name="reset" value="Batal" style="width:80px;"></td>      
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
